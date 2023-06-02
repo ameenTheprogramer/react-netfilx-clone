@@ -2,6 +2,7 @@
 .row{
     margin-left: 20px;
     color: #fff;
+    margin-top: 5%;
 }
 
 .posters{
@@ -15,8 +16,22 @@
 }
 
 .poster{
-    max-height: 250px;
+    cursor: pointer;
+    max-height: 150px;
     margin-right: 10px;
+}
+.smallposter{
+    cursor: pointer;
+    max-height: 100px;
+    margin-right: 10px;
+    margin-top: 2%;
+
+
+}
+
+.poster:hover,
+.smallposter:hover{
+    transform: scale(1.1);
 }
 
 
